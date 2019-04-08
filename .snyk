@@ -1,0 +1,55 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - yui > request > hawk:
+        patched: '2019-04-08T04:22:57.745Z'
+  'npm:hoek:20180212':
+    - lob > gulp-coveralls > coveralls > request > hawk > boom > hoek:
+        patched: '2019-04-08T04:22:57.745Z'
+    - lob > gulp-coveralls > coveralls > request > hawk > sntp > hoek:
+        patched: '2019-04-08T04:22:57.745Z'
+    - lob > gulp-coveralls > coveralls > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-04-08T04:22:57.745Z'
+    - lob > gulp-coveralls > coveralls > request > hawk > hoek:
+        patched: '2019-04-08T04:22:57.745Z'
+  'npm:http-signature:20150122':
+    - yui > request > http-signature:
+        patched: '2019-04-08T04:22:57.745Z'
+  'npm:lodash:20180130':
+    - connect-assets > argparse > lodash:
+        patched: '2019-04-08T04:22:57.745Z'
+  'npm:mime:20170907':
+    - node-linkedin > request > mime:
+        patched: '2019-04-08T04:22:57.745Z'
+    - twilio > request > mime:
+        patched: '2019-04-08T04:22:57.745Z'
+    - fbgraph > request > form-data > mime:
+        patched: '2019-04-08T04:22:57.745Z'
+    - yui > request > form-data > mime:
+        patched: '2019-04-08T04:22:57.745Z'
+    - node-linkedin > request > form-data > mime:
+        patched: '2019-04-08T04:22:57.745Z'
+  'npm:minimatch:20160620':
+    - lob > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2019-04-08T04:22:57.745Z'
+    - lob > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2019-04-08T04:22:57.745Z'
+    - lob > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2019-04-08T04:22:57.745Z'
+  'npm:qs:20140806-1':
+    - ordrin-api > superagent > qs:
+        patched: '2019-04-08T04:22:57.745Z'
+  'npm:request:20160119':
+    - yui > request:
+        patched: '2019-04-08T04:22:57.745Z'
+  'npm:tunnel-agent:20170305':
+    - yui > request > tunnel-agent:
+        patched: '2019-04-08T04:22:57.745Z'
+    - lob > gulp-coveralls > coveralls > request > tunnel-agent:
+        patched: '2019-04-08T04:22:57.745Z'
+  'npm:uglify-js:20151024':
+    - jade > transformers > uglify-js:
+        patched: '2019-04-08T04:22:57.745Z'
